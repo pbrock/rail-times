@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-size: 65%;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* VARIABLES */
+/* END VARIABLES */
+body {
+  position: relative;
+}
+.bg-image {
+  overflow: hidden;
+}
+.bg-image img {
+  width: 100%;
+  height: 100%;
+}
+#pageWrapper {
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 400;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  float: left;
+  z-index: 5;
+  position: absolute;
+  top: 20px;
+  background: #f25312;
+  opacity: .9;
+  color: #FFF;
+  min-width: 35%;
+}
+#pageWrapper * {
+  opacity: 1;
+}
+#pageWrapper .inner-wrap {
+  padding: 0 10px;
+}
+#pageWrapper .inner-wrap h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-weight: 600;
+}
+#pageWrapper .inner-wrap h2 {
+  font-size: 1.7rem;
+  padding: 0 0 7px;
+  line-height: 2rem;
+}
+#pageWrapper .inner-wrap h2 span {
+  display: block;
+}
+#pageWrapper .inner-wrap h3 {
+  margin: 20px 0 0;
+  background: #008000;
+  text-transform: uppercase;
+}
+#pageWrapper .inner-wrap .station-select-wrap {
+  padding: 0 0 20px;
+}
+#pageWrapper .inner-wrap .direction-header {
+  font-size: 1rem;
+  padding: 5px 0;
+  border-bottom: 1px solid #FFF;
+  margin: 20px 0 10px;
+}
+#pageWrapper .inner-wrap .direction-header span {
+  margin-right: 10px;
+  font-size: .9rem;
+}
+#pageWrapper .inner-wrap .next-train {
+  font-size: .8rem;
+  line-height: 1rem;
+  margin-bottom: 10px;
+}
+#pageWrapper .inner-wrap .next-train .arrival-time {
+  font-weight: 600;
+}
+#pageWrapper .inner-wrap .next-train .appx {
+  display: none;
+  font-size: .7rem;
+}
+#pageWrapper .inner-wrap .next-train .blue-line {
+  color: #006bad;
+}
+#pageWrapper .inner-wrap .next-train .green-line {
+  color: #008000;
+}
+#pageWrapper .inner-wrap .next-train .gold-line {
+  color: #ff9306;
+}
+#pageWrapper .inner-wrap .next-train .red-line {
+  color: #ed1f24;
+}
+#pageWrapper .inner-wrap .line-listing {
+  font-size: 1.2rem;
+  padding: 10px 0;
+  margin: 10px 0 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.2);
+}
+#pageWrapper .inner-wrap .line-listing ul {
+  display: block;
+}
+#pageWrapper .inner-wrap .line-listing ul li {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+#pageWrapper .inner-wrap .line-listing ul li div {
+  float: left;
+  margin: 0 5px 0 10px;
+}
+#pageWrapper .inner-wrap .line-listing ul li div.blue-line {
+  color: #006bad;
+}
+#pageWrapper .inner-wrap .line-listing ul li div.green-line {
+  color: #008000;
+}
+#pageWrapper .inner-wrap .line-listing ul li div.gold-line {
+  color: #ff9306;
+}
+#pageWrapper .inner-wrap .line-listing ul li div.red-line {
+  color: #ed1f24;
+}
+#pageWrapper .cap {
+  text-transform: capitalize;
+}
+#pageWrapper .hidden {
+  display: none;
+}
+#pageWrapper .toggleBtn {
+  cursor: pointer;
+  padding: 8px;
+  font-size: .9em;
+  width: auto;
+  display: inline-block;
+  min-width: 100px;
+}
